@@ -1,0 +1,117 @@
+﻿<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name='viewport' content='width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0'>
+<title>쿠팡 회원가입</title>
+<link rel="stylesheet" type="text/css" href="css/index.css">
+<script type="text/javascript" src="js/jquery-1.11.3.min.js"></script>
+<script type="text/javascript" src="js/coopang.js"></script>
+</head>
+<body>
+<!-- wrap -->
+<div id="wrap">
+	<h1 class="logo"><span class="blind">쿠팡</span></h1>
+	<!-- bx_type -->
+	<div class="bx_type">
+		<form>
+		<fieldset>
+		<legend class="h_1">회원가입</legend>
+			<span class="h_2"><label for="e-mail_id">아이디(이메일)</label></span>
+			<span class="bx_inp">
+				<input type="text" id="e-mail_id" title="이메일 앞부분" class="txt_bx">
+				<span class="txt_at">@</span>
+			</span>
+			<span class="bx_inp2">
+				<input type="text" title="이메일 뒷부분" id="inp_email" class="txt_bx">
+				<select title="이메일 직접입력 선택" id="select_email" class="select_type">
+					<option value="1">직접입력</option>
+					<option value="naver.com">naver.com</option>
+					<option value="hanmail.net">hanmail.net</option>
+					<option value="nate.com">nate.com</option>
+				</select>
+				<span class="alert_type">이메일은 필수입력 항목입니다.</span>
+				<span class="alert_type">이메일은 필수입력 항목입니다.</span>
+			</span>
+			<div class="bx_pwd">
+				<span class="pwd_type">
+					<span class="h_2"><label for="inp_pwd">비밀번호</label></span>
+					<input type="password" id="inp_pwd" title="비밀번호 입력" maxlength="15" class="txt_bx">
+				</span>
+				<span class="pwd_type pwd_type_v2">
+					<span class="h_2"><label for="inp_pwd2">비밀번호 확인</label></span>
+					<input type="password" id="inp_pwd2" title="비밀번호 확인" maxlength="15" class="txt_bx">
+				</span>
+			</div>
+			<span class="alert_type">비밀번호는 필수입력 항목입니다.</span>
+			<span class="alert_type">비밀번호는 필수입력 항목입니다.</span>
+			<span class="alert_type2">비밀번호가 일치하지 않습니다.</span>
+			<p class="guide_txt_pwd">
+				비밀번호는 6~15자 이내로 영문 (대문자,소문자), 숫자, 특수 문자 3가지 조합중 2가지 이상을 조합 하셔서 작성하시면 됩니다.
+				<span>단, 3가지 모두를 조합하실 경우 더욱 강력한 패스워드 구현이 가능합니다.</span>
+			</p>
+			<span class="h_2">회원정보</span>
+			<div class="bx_info">
+				<label for="name" class="h_3">이름</label>
+				<input type="text" id="name" class="txt_bx txt_bx2">
+				<span class="alert_type">이름은 필수입력 항목입니다.</span>
+				<br>
+				<label for="birth" class="h_3">생년월일</label>
+				<span class="select_group">
+				<select id="birth" name="birth" class="select_type select_type_v2" style="width:72px;">
+					<option value="">년</option>
+					<option value="1993">1993</option>
+					<option value="1992">1992</option>
+					<option value="1991">1991</option>
+				</select>
+				<select name="birth" class="select_type select_type_v2" style="width:48px;">
+					<option value="">월</option>
+					<option value="1">1</option>
+					<option value="2">2</option>
+				</select>
+				<select name="birth" class="select_type select_type_v2" style="width:48px;">
+					<option value="">일</option>
+					<option value="1">1</option>
+					<option value="2">2</option>
+				</select>
+				</span>
+				<span class="alert_type4">생년월일을 정확히 체크해주세요.</span>
+				<p class="guide_txt_info guide_txt_info_v1">만 14세 미만은 가입하실 수 없습니다.</p>
+				<label for="phone" class="h_3">휴대폰번호</label>
+				<input type="text" id="phone" class="txt_bx txt_bx2">
+				<span class="alert_type">휴대폰번호는 필수입력 항목입니다.</span>
+				<p class="guide_txt_info">아이디 또는 비밀번호를 찾기 위해 꼭 필요한 정보이므로 <strong>정확하게 입력</strong>해주세요.</p>
+			</div>
+			<span class="h_2">부가정보</span>
+			<div class="bx_info">
+				<div class="bx_rdo">
+					<span class="h_3 h_3_v2"> 성별</span>
+					<span class="gender_bx_group">
+						<input type="radio" name="rdo_type" id="man" class="inp_bx">
+						<label for="man" class="h_3_v3">남자</label>
+						<input type="radio" name="rdo_type" id="woman" class="inp_bx">
+						<label for="woman" class="h_3_v3">여자</label>
+					</span>
+					<span class="alert_type3">성별선택은 필수선택 항목입니다.</span>
+				</div>
+				<span class="h_3 h_3_v2">마케팅 수신동의</span>
+				<span class="marketing_bx_group">
+					<input type="checkbox" id="chk_e-mail" class="inp_bx">
+					<label for="chk_e-mail" class="h_3_v3" style="margin-right:7px;">이메일</label>
+					<input type="checkbox" id="chk_sms" class="inp_bx">
+					<label for="chk_sms" class="h_3_v3">SMS</label>
+				</span>
+				<p class="guide_txt_info guide_txt_info_v2">
+					쿠팡에서 제공하는 오늘의 쿠팡 정보 등을 받으실 수 있습니다. 단, 상품 구매 정보는 수신동의 여부 관계없이 발송됩니다.<br>
+					<strong>제공 동의를 하지 않으셔도 서비스 이용에는 문제가 없습니다.</strong>
+				</p>
+			</div>
+			<button type="submit" class="btn_new"><span class="btn_mobile">동의하고 가입완료</span></button>
+		</fieldset>
+		</form>
+	</div>
+	<!-- //bx_type -->
+</div>
+<!-- //wrap -->
+</body>
+</html>

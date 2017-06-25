@@ -1,0 +1,74 @@
+﻿@charset "utf-8";
+/* KSH 151110 */
+
+/* Common */
+body,p,h1,h2,h3,h4,h5,h6,ul,ol,li,dl,dt,dd,table,th,td,form,fieldset,legend,input,textarea,button,select{margin:0;padding:0}
+body,input,textarea,select,button,table{font-family:'돋움',Dotum,AppleGothic,sans-serif;font-size:12px}
+img,fieldset{border:0}
+ul,ol{list-style:none}
+em,address{font-style:normal}
+a{text-decoration:none}
+a:hover,a:active,a:focus{text-decoration:underline}
+.blind{visibility:hidden;overflow:hidden;position:absolute;left:0;top:0;width:0;height:0;margin:0;padding:0;font-size:0;line-height:0}
+body{padding:10px;background:url(../img/bg_pattern.gif)}
+#wrap{width:600px;margin:0 auto}
+
+/* Contents */
+button,label{cursor:pointer}
+.logo{width:113px;height:25px;padding:13px 0 18px;background:url(../img/logo.png) 0 13px no-repeat}
+.bx_type{padding:36px 30px 35px;border:1px solid #ccc;background:#fdfdfd}
+.h_1{font-family:'맑은고딕',Malgungothic;color:#333;font-size:28px;font-weight:bold}
+.h_2{display:block;margin:31px 0 8px 0;font-family:'맑은고딕',Malgungothic;font-size:14px;font-weight:bold;letter-spacing:-1px}
+.txt_bx{width:257px;padding:4px 0 4px 3px;border:1px solid #c5c5c5;font-family:'돋움',Dotum;color:#000;font-size:16px;line-height:16px;vertical-align:top}
+.bx_inp .txt_bx{width:227px}
+.bx_inp2 .txt_bx{width:147px}
+.txt_bx2{width:180px;height:12px;margin-bottom:10px;color:#55575f}
+.txt_at{font-family:'맑은고딕',Malgungothic;color:#c5c5c5;font-size:12px;font-weight:bold;letter-spacing:-1px;}
+.select_type{width:130px;height:28px;padding:3px 0 0 5px;border:1px solid #c5c5c5;color:#666}
+.select_type_v2{height:22px;padding-left:0;margin-bottom:10px}
+.pwd_type{display:block;float:left;width:262px}
+.pwd_type_v2{margin-left:10px;}
+.bx_pwd{zoom:1}
+.bx_pwd:after{clear:both;display:block;content:''}
+.guide_txt_pwd{width:537px;padding-top:12px;color:#666;line-height:19px}
+.guide_txt_pwd span{display:block}
+.bx_info{width:496px;padding:10px 20px 5px 20px;border:1px solid #c8c8c8;background:#f4f4f4}
+.h_3{display:inline-block;width:84px;color:#55575f;font-weight:bold;line-height:22px;vertical-align:top}
+.h_3_v2{width:112px;}
+.h_3_v3{margin-right:5px;color:#666}
+.inp_bx{width:13px;height:13px;margin:2px 0 0 1px;}
+.bx_rdo{margin-bottom:9px;}
+.guide_txt_info{margin:-1px 0 10px 88px;color:#95979f;font-size:11px;line-height:13px;letter-spacing:-1px}
+.guide_txt_info_v2{margin:-2px 0 8px 117px;line-height:17px;letter-spacing:0;}
+.guide_txt_info_v2 strong{color:#111}
+.btn_new{display:block;width:264px;height:56px;margin:35px auto 0;border:1px solid #0085da;border-radius:4px;box-shadow:inset 0px 0px 1px #ffffff;background-color:#0682d2;background:linear-gradient(to bottom,#42bdf8 0%,#0682d2 100%);filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#42bdf8',endColorstr='#0682d2',GradientType=0)}/* IE6-9 */
+.btn_mobile{font-family:'맑은고딕',Malgungothic;color:#fff;font-size:22px;font-weight:bold;text-shadow:-1px -1px 1px #0071b2}
+.alert_type,.alert_type2,.alert_type3,.alert_type4{display:inline-block;margin-top:5px;color:#ff0000;font-size:12px}
+.alert_type4{margin:0 0 5px}
+
+/* Mobile */
+@media screen and (max-width:768px){
+	#wrap{width:100%;margin:0;min-width:280px}
+	.logo{width:74px;height:16px;padding:5px 0 9px;background-size:74px 16px;background-position: 0 5px}
+	.h_1{font-size:22px}
+	.bx_inp:after{clear:both;display:block;content:''}
+	.bx_inp .txt_bx,.bx_inp2 .txt_bx{width:200px}
+	.bx_inp .txt_bx,.bx_inp .txt_at{float:left}
+	.bx_inp .txt_at{margin:5px 0 0 3px}
+	.bx_inp2{display:block}
+	.bx_inp2 .txt_bx,.bx_inp2 .select_type{margin-top:5px}
+	.h_2{margin-top:15px}
+	.pwd_type{float:none;width:auto}
+	.pwd_type .txt_bx{width:100%;min-width:170px;max-width:257px}
+	.pwd_type_v2{margin:0}
+	.guide_txt_pwd{width:auto}
+	.guide_txt_pwd span{display:inline}
+	.bx_info{width:auto}
+	.bx_info .txt_bx2{display:block;width:100%;max-width:180px;margin:0}
+	.bx_info .select_group{display:block;min-width:180px}
+	.guide_txt_info{margin:10px 0 8px}
+	.guide_txt_info_v1{margin-top:0}
+	.gender_bx_group,.marketing_bx_group{display:block}
+	.btn_new{width:100%;min-width:207px;max-width:264px}
+	.btn_mobile{font-size:16px}
+}
