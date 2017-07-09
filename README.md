@@ -159,16 +159,18 @@ __볼드 strong 태그__
 ### 7. 코드블럭
 
 ```
+` ` `
+function test() {
+    console.log("함수 테스트");
+}
+` ` `
+```
+
+```
 function test() {
     console.log("함수 테스트");
 }
 ```
-
-\```
-function test() {
-    console.log("함수 테스트");
-}
-\```
 
 
 ### 8. 체크박스
