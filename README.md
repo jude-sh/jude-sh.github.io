@@ -43,8 +43,8 @@
 ```
 
 > - list
->     + list
->         * list
+>   + list
+>     * list
 
 ### 3. 목록
 ```
