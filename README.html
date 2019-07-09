@@ -1056,10 +1056,9 @@ body .markdown-body
 .codehilite .il{color:#009999}
 .codehilite .gc{color:#999;background-color:#EAF2F5}
 </style><title>README</title></head><body><article class="markdown-body"><h1 id="jude">안녕하세요. jude 입니다.<a class="headerlink" href="#jude" title="Permanent link"></a></h1>
-<h3 id="test">포트폴리오 저장소 테스트중입니다.(test)<a class="headerlink" href="#test" title="Permanent link"></a></h3>
-<hr />
-<p><br><br></p>
-<h2 id="_1">깃허브에서 많이 사용하게 될 마크다운 문법<a class="headerlink" href="#_1" title="Permanent link"></a></h2>
+<p><br></p>
+<h2 id="_1">깃헙에서 많이 사용하게 될 마크다운 문법<a class="headerlink" href="#_1" title="Permanent link"></a></h2>
+<p>*마크다운은 쉽고 빠르게 가독성 있는 문서를 작성하는데 도움이 됩니다.</p>
 <h3 id="1-heading">1. Heading<a class="headerlink" href="#1-heading" title="Permanent link"></a></h3>
 <div class="codehilite"><pre># 이것은 h1
 ## 이것은 h2
@@ -1077,6 +1076,7 @@ body .markdown-body
 <h5 id="h5">이것은 h5<a class="headerlink" href="#h5" title="Permanent link"></a></h5>
 <h6 id="h6">이것은 h6<a class="headerlink" href="#h6" title="Permanent link"></a></h6>
 <p>이것은 보통 텍스트</p>
+<p><br></p>
 <h3 id="2-blockquote">2. BlockQuote<a class="headerlink" href="#2-blockquote" title="Permanent link"></a></h3>
 <div class="codehilite"><pre>&gt; 이것은 1단 blockquote
 &gt; &gt; 이것은 2단 blockquote
@@ -1096,7 +1096,8 @@ body .markdown-body
 </blockquote>
 </blockquote>
 </blockquote>
-<p>인용문 안에는 각종 문법을 포함할 수 있다.
+<p><br>
+인용문 안에는 각종 문법을 포함할 수 있다.
 <div class="codehilite"><pre>&gt; - list
 &gt;   + list
 &gt;     * list
@@ -1110,6 +1111,7 @@ body .markdown-body
 </li>
 </ul>
 </blockquote>
+<p><br></p>
 <h3 id="3">3. 목록<a class="headerlink" href="#3" title="Permanent link"></a></h3>
 <div class="codehilite"><pre>순서 없는 목록 (ul)
 - test
@@ -1126,14 +1128,14 @@ body .markdown-body
 </ul>
 </li>
 </ul>
+<p><br>
 <div class="codehilite"><pre>순서 있는 목록 (ol)
 1. 목록 첫번째
 2. 목록 두번째
 3. 목록 세번쨰
 2. 목록 첫번째
 3. 목록 두번째
-</pre></div>
-
+</pre></div></p>
 <p><strong>* 이렇듯 떨어뜨려 번호를 다시 써도 실제로는 아래와 같이 순서가 이어진다.</strong></p>
 <ol>
 <li>목록 첫번째</li>
@@ -1142,6 +1144,7 @@ body .markdown-body
 <li>목록 첫번째</li>
 <li>목록 두번째</li>
 </ol>
+<p><br></p>
 <h3 id="4">4. 수평선<a class="headerlink" href="#4" title="Permanent link"></a></h3>
 <div class="codehilite"><pre>* * *
 ***
@@ -1155,6 +1158,7 @@ body .markdown-body
 <hr />
 <hr />
 <hr />
+<p><br></p>
 <h3 id="5">5. 링크<a class="headerlink" href="#5" title="Permanent link"></a></h3>
 <div class="codehilite"><pre>[daum](http://www.daum.net)
 [naver](http://www.naver.com)
@@ -1184,6 +1188,7 @@ body .markdown-body
 나오지않아서 <a href="http://www.google.co.kr/" title="구글">구글</a>에서 주로 검색을 하는 편이다.</p>
 <p>웹개발 관련 정보를 <a href="http://www.naver.com/" title="네이버">네이버</a>와 <a href="http://www.daum.net/" title="다음">다음</a>에서 검색을 하면 만족스러운 결과가
 나오지않아서 <a href="http://www.google.co.kr/" title="구글">구글</a>에서 주로 검색을 하는 편이다.</p>
+<p><br></p>
 <h3 id="6">6. 강조<a class="headerlink" href="#6" title="Permanent link"></a></h3>
 <div class="codehilite"><pre>*이탤릭 em 태그*
 
@@ -1201,6 +1206,7 @@ __볼드 strong 태그__
 <p><strong>볼드 strong 태그</strong></p>
 <p><strong>볼드 strong 태그</strong></p>
 <p><del>취소선</del></p>
+<p><br></p>
 <h3 id="7">7. 코드블럭<a class="headerlink" href="#7" title="Permanent link"></a></h3>
 <div class="codehilite"><pre>` ` `
 function test() {
@@ -1214,6 +1220,29 @@ function test() {
 }
 </pre></div>
 
+<p><br>
+단어에 짧게 사용하면 아래와 같이 음영 처리됨<br>
+<div class="codehilite"><pre>출력을 할 때 사용하는 `print()` function.
+</pre></div>
+출력을 할 때 사용하는 <code>print()</code> function.</p>
+<p><br>
+<div class="codehilite"><pre>* 목록 안의 코드블럭은 한줄 더 내리고 들여쓰기 8칸하여 작성
+
+        &lt;p&gt;리스트 안의 코드&lt;/p&gt;
+        목록 안의 코드블럭 2번째 줄
+
+목록에 포함된 코드 블럭은 줄내림 및 들여쓰기 맞추기가 약간 까다롭습니다.
+</pre></div></p>
+<ul>
+<li>목록 안의 코드블럭은 한줄 더 내리고 들여쓰기 8칸하여 작성<div class="codehilite"><pre>&lt;p&gt;리스트 안의 코드&lt;/p&gt;
+목록 안의 코드블럭 2번째 줄
+</pre></div>
+
+
+</li>
+</ul>
+<p>목록에 포함된 코드 블럭은 줄내림 및 들여쓰기 맞추기가 약간 까다롭습니다.</p>
+<p><br></p>
 <h3 id="8">8. 체크박스<a class="headerlink" href="#8" title="Permanent link"></a></h3>
 <div class="codehilite"><pre>- [x] test
 - [ ] test2
@@ -1222,24 +1251,4 @@ function test() {
 <ul class="task-list">
 <li class="task-list-item"><input type="checkbox" disabled checked/> test</li>
 <li class="task-list-item"><input type="checkbox" disabled/> test2</li>
-</ul>
-<h3 id="9">9. 코드입력<a class="headerlink" href="#9" title="Permanent link"></a></h3>
-<p>` 3개를 사용하여 아래와 같이 작성하면 배경색이 들어가는 박스를 생성<br>
-<div class="codehilite"><pre>출력을 할 때 사용하는 `print()` function.
-</pre></div></p>
-<p>단어에 짧게 사용하면 아래와 같이 음영 처리됨<br>
-출력을 할 때 사용하는 <code>print()</code> function.</p>
-<div class="codehilite"><pre>*   리스트 안의 코드블럭은 한줄 내리고 작성
-
-        &lt;p&gt;리스트 안의 코드&lt;/p&gt;
-</pre></div>
-
-<ul>
-<li>리스트 안의 코드블럭은 한줄 내리고 작성<div class="codehilite"><pre>&lt;p&gt;리스트 안의 코드&lt;/p&gt;
-음
-</pre></div>
-
-
-</li>
-</ul>
-<p>다시..</p></article></body></html>
+</ul></article></body></html>
