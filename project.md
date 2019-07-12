@@ -27,10 +27,11 @@
 <br><br>
 
 ### 프로젝트 진행 시 참조해야 할 사항
+[1]: https://wiki.daumkakao.com/pages/viewpage.action?pageId=450182585	"gulp 사용방법 문서"
+
 - 예시) gulp를 이용해서 sass를 빌드시키고 있으므로 [gulp 사용방법 문서][1] 참고하여 프로젝트 진행할 것
 - 예시) 개발 요청으로 깃 저장소를 미러링하여 마크업 결과물을 커밋로그로 전달하므로 복잡한 벨로시티 문법은 지양할 것
-[1]: https://wiki.daumkakao.com/pages/viewpage.action?pageId=450182585	"gulp 사용방법 문서"
-<br>
+<br><br>
 
 ### 마크업 또는 개발 가이드 이외의 예외 처리 사항
 
