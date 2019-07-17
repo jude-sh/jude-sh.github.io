@@ -1057,8 +1057,9 @@ body .markdown-body
 .codehilite .gc{color:#999;background-color:#EAF2F5}
 </style><title>README</title></head><body><article class="markdown-body"><h1 id="jude">안녕하세요. jude 입니다.<a class="headerlink" href="#jude" title="Permanent link"></a></h1>
 <p><br></p>
-<h2 id="_1">깃헙에서 많이 사용하게 될 마크다운 문법<a class="headerlink" href="#_1" title="Permanent link"></a></h2>
-<p>*마크다운은 쉽고 빠르게 가독성 있는 문서를 작성하는데 도움이 됩니다.</p>
+<h2 id="_1">마크다운 문법<a class="headerlink" href="#_1" title="Permanent link"></a></h2>
+<p>*마크다운은 쉽고 빠르게 가독성 있는 문서를 작성하는데 도움이 됩니다.<br>
+기본적으로 깃헙은 마크다운 문법을 지원하고 있습니다.</p>
 <h3 id="1-heading">1. Heading<a class="headerlink" href="#1-heading" title="Permanent link"></a></h3>
 <div class="codehilite"><pre># 이것은 h1
 ## 이것은 h2
@@ -1097,11 +1098,12 @@ body .markdown-body
 </blockquote>
 </blockquote>
 <p><br>
-인용문 안에는 각종 문법을 포함할 수 있다.
+인용문 안에는 각종 문법을 포함할 수 있다.</p>
 <div class="codehilite"><pre>&gt; - list
 &gt;   + list
 &gt;     * list
-</pre></div></p>
+</pre></div>
+
 <blockquote>
 <ul>
 <li>list</li>
@@ -1128,14 +1130,15 @@ body .markdown-body
 </ul>
 </li>
 </ul>
-<p><br>
+<p><br></p>
 <div class="codehilite"><pre>순서 있는 목록 (ol)
 1. 목록 첫번째
 2. 목록 두번째
 3. 목록 세번쨰
 2. 목록 첫번째
 3. 목록 두번째
-</pre></div></p>
+</pre></div>
+
 <p><strong>* 이렇듯 떨어뜨려 번호를 다시 써도 실제로는 아래와 같이 순서가 이어진다.</strong></p>
 <ol>
 <li>목록 첫번째</li>
@@ -1220,28 +1223,25 @@ function test() {
 }
 </pre></div>
 
-<p><br>
-단어에 짧게 사용하면 아래와 같이 음영 처리됨<br>
+<p><br></p>
+<p>단어에 짧게 사용하면 아래와 같이 음영 처리됨<br>
 <div class="codehilite"><pre>출력을 할 때 사용하는 `print()` function.
 </pre></div>
 출력을 할 때 사용하는 <code>print()</code> function.</p>
-<p><br>
-<div class="codehilite"><pre>* 목록 안의 코드블럭은 한줄 더 내리고 들여쓰기 8칸하여 작성
-
-        &lt;p&gt;리스트 안의 코드&lt;/p&gt;
-        목록 안의 코드블럭 2번째 줄
-
-목록에 포함된 코드 블럭은 줄내림 및 들여쓰기 맞추기가 약간 까다롭습니다.
-</pre></div></p>
-<ul>
-<li>목록 안의 코드블럭은 한줄 더 내리고 들여쓰기 8칸하여 작성<div class="codehilite"><pre>&lt;p&gt;리스트 안의 코드&lt;/p&gt;
-목록 안의 코드블럭 2번째 줄
+<p><br></p>
+<div class="codehilite"><pre>  * 목록 안의 코드블럭은 목록과 동일하게 들여쓰기를 하여 작성
+  ```
+  &lt;p&gt;리스트 안의 코드&lt;/p&gt;
+  목록 안의 코드블럭 2번째 줄
+  ```
 </pre></div>
 
-
-</li>
+<ul>
+<li>목록 안의 코드블럭은 목록과 동일하게 들여쓰기를 하여 작성
+  <div class="codehilite"><pre>&lt;p&gt;리스트 안의 코드&lt;/p&gt;
+목록 안의 코드블럭 2번째 줄
+</pre></div></li>
 </ul>
-<p>목록에 포함된 코드 블럭은 줄내림 및 들여쓰기 맞추기가 약간 까다롭습니다.</p>
 <p><br></p>
 <h3 id="8">8. 체크박스<a class="headerlink" href="#8" title="Permanent link"></a></h3>
 <div class="codehilite"><pre>- [x] test
