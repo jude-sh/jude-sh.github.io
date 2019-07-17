@@ -29,12 +29,26 @@
 
 ### 프로젝트 진행 시 참조해야 할 사항
 [1]: https://wiki.daumkakao.com/pages/viewpage.action?pageId=450182585	"gulp 사용방법 문서"
+[2]: https://wiki.daumkakao.com/pages/viewpage.action?pageId=450175303	"sass 사용방법 문서"
 
 - 예시) `gulp`를 이용해서 `sass`를 빌드시키고 있으므로 [gulp 사용방법 문서][1] 참고하여 프로젝트 진행할 것
+- 예시) `sass`를 사용하고 있기 때문에 [sass 사용방법 문서][2] 참고하여 기본적인 문법 숙지하는 것을 권장
 - 예시) 개발 요청으로 깃 저장소를 미러링하여 마크업 결과물을 커밋로그로 전달하므로 복잡한 벨로시티 문법은 지양할 것
 - 예시) 슬라이드는 `slick.js` 라이브러리를 사용
 
 <br>
+
+### 프로젝트 공통 사항
+
+- **HTML**
+	- 예시) 공통 input text 요소는 inp_comm 클래스가 붙은 아래와 같은 input 태그를 사용한다.
+	```
+	<input type="text" class="inp_comm">
+	```
+	
+
+- **CSS**
+- 예시) .thumb_g : 
 
 ### 마크업 또는 개발 가이드 이외의 예외 처리 사항
 
