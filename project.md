@@ -47,7 +47,7 @@
 - **HTML**
 	- 예시) 공통 input text 요소는 inp_comm 클래스가 붙은 아래와 같은 input 태그를 사용한다.
 	```
-	<input type="text" class="inp_comm">
+	<input type="text" class="tf_comm">
 	```
 
 - **CSS**
