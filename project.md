@@ -34,7 +34,12 @@
 ### 프로젝트 진행 시 참조해야 할 사항
 [1]: https://wiki.daumkakao.com/pages/viewpage.action?pageId=450182585	"gulp 사용방법 문서"
 [2]: https://wiki.daumkakao.com/pages/viewpage.action?pageId=450175303	"sass 사용방법 문서"
+[3]: http://mc.tset.daumcdn.net/  "Tenth2"
 
+- 예시) 이미지 업로드는 [Tenth2][3]를 이용하고 권한은 기획자인 oooo.oo에게 요청할 것.
+- 예시) 관리자 페이지 권한은 개발자 ooooo.ooo에게 요청할 것.
+- 예시) 이미지 스프라이트 관리 아지트 팔로우할 것.
+- 예시) 업무시 협업 구성원들이 사용하는 단톡방 초대할 것.
 - 예시) `gulp`를 이용해서 `sass`를 빌드시키고 있으므로 [gulp 사용방법 문서][1] 참고하여 프로젝트 진행할 것
 - 예시) `sass`를 사용하고 있기 때문에 [sass 사용방법 문서][2] 참고하여 기본적인 문법 숙지하는 것을 권장
 - 예시) 개발 요청으로 깃 저장소를 미러링하여 마크업 결과물을 커밋로그로 전달하므로 복잡한 벨로시티 문법은 지양할 것
@@ -121,7 +126,7 @@
 		- 예시) 모바일 프로젝트이기 때문에 -webkit-mask-box-image 속성을 이용하여 해결
 		- 예시) [이슈사항 정리 위키][]
 
-[이슈사항 정리 위키]: http://zuu.kr/kobw
+[이슈사항 정리 위키]: http://zuu.kr/kobw  "이슈사항 정리 위키"
 
 <br>
 
